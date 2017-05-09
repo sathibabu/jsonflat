@@ -1,0 +1,13 @@
+{
+    "name": "sathibabu",
+    "reading":null,
+    "greades":"",
+    "hobbies": [{
+        "running": "no",
+        "dancing":"yes"
+    }, {
+        "eating": "yes",
+        "bathing":"yes",
+        "faviroutefood":[{"idaly":true},{"vada":false}]
+    }]
+}
