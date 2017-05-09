@@ -13,8 +13,8 @@ const destpath = process.argv[4] || undefined;
 const destpath2 = process.argv[5] || undefined;
 
 if(opr==='flat'){
-	 let data = filehandler.read(srcpath);
-     console.log(flatten.flatten(data));
+	let data = filehandler.read(srcpath,'utf-8');
+    console.log(flatten.flatten(data));
 
 }else if(opr==='unflat'){
      //flatten.unflatten(srcpath,destpath,destpath2);
