@@ -14,10 +14,12 @@ const destpath2 = process.argv[5] || undefined;
 
 if(opr==='flat'){
 	let data = filehandler.read(srcpath,'utf-8');
-    console.log(flatten.flatten(data));
+    let flattendata = flatten.flatten(data);
+    filehandler.write(flattendata,destpath);
+    
 
 }else if(opr==='unflat'){
-     //flatten.unflatten(srcpath,destpath,destpath2);
+     // feature not yet implemented
 }else{
 	console.log('Unsupported operation, kindly check the operations');
 }
