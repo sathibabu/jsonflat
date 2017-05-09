@@ -19,7 +19,8 @@ Usage:
 
 example 
     
-    node app/server.js flat /tests/data.json   /tests/result/
+    node app/server.js flat tests/datasets/data.json tests/datasets/results/
+
 
 
 TechStack
