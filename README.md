@@ -5,14 +5,16 @@ JSON FLAT is simple nodejs app to covert give json file into flattened individua
 
 Setup:
 
-	1. Download the repository , then extract
-	2. move to the extracted folder 
+	1. Download the repository 
+	2. move to the repository folder 
 	3. run, npm install
 
 
 Usage: 
     
-    node app/server.js [opt] [srcpath] [destpath]
+    node app/server.js [operation] [srcpath] [destpath]
+
+
 
 
 example 
