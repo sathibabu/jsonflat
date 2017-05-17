@@ -1,6 +1,6 @@
 # jsonflat
 
-JSON FLAT is simple nodejs app to covert give json file into flattened individual json files
+JSON FLAT is simple nodejs app to covert given json file into flattened individual json files
 
 
 Setup:
